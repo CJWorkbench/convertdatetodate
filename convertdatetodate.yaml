@@ -1,0 +1,21 @@
+id_name: convertdatetodate
+name: Convert date unit
+category: Clean
+help_url: modules/convert-date-to-date
+icon: calendar
+description: 'Convert date columns to other date units.'
+parameters:
+- id_name: colnames
+  name: ''
+  type: multicolumn
+  column_types: [ date ]
+- id_name: unit
+  name: Unit
+  type: menu
+  default: day
+  options:
+    - { value: day, label: Day }
+    - { value: week, label: Week }
+    - { value: month, label: Month }
+    - { value: quarter, label: Quarter }
+    - { value: year, label: Year }

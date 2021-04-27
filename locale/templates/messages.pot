@@ -1,0 +1,42 @@
+#. default-message: Convert date unit
+msgid "_spec.name"
+msgstr ""
+
+#. default-message: Convert date columns to other date units.
+msgid "_spec.description"
+msgstr ""
+
+#. default-message: Unit
+msgid "_spec.parameters.unit.name"
+msgstr ""
+
+#. default-message: Day
+msgid "_spec.parameters.unit.options.day.label"
+msgstr ""
+
+#. default-message: Week
+msgid "_spec.parameters.unit.options.week.label"
+msgstr ""
+
+#. default-message: Month
+msgid "_spec.parameters.unit.options.month.label"
+msgstr ""
+
+#. default-message: Quarter
+msgid "_spec.parameters.unit.options.quarter.label"
+msgstr ""
+
+#. default-message: Year
+msgid "_spec.parameters.unit.options.year.label"
+msgstr ""
+
+#. default-message: Column “{column}” does not specify a {toUnit}; we picked the first {toUnit} of the {fromUnit}
+#: convertdatetodate.py:74
+msgid "warning.choseStartOfUnit"
+msgstr ""
+
+#. default-message: Column “{column}” cannot be converted to {toUnit}: weeks are not compatible with other units
+#: convertdatetodate.py:93
+msgid "error.weekUnitIncompatible"
+msgstr ""
+
