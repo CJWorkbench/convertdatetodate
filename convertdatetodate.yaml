@@ -1,7 +1,7 @@
 id_name: convertdatetodate
 name: Convert date unit
 category: Clean
-help_url: modules/convert-date-to-date
+help_url: articles/5222622
 icon: calendar
 description: 'Convert date columns to other date units.'
 parameters:
